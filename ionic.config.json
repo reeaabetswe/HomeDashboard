@@ -1,0 +1,7 @@
+{
+  "name": "HomeDashboard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

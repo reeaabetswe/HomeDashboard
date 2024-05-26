@@ -8,8 +8,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'home-dashboard',
     pathMatch: 'full'
+  },
+  {
+    path: 'home-dashboard',
+    loadChildren: () => import('./home-dashboard/home-dashboard.module').then( m => m.HomeDashboardPageModule)
   },
 ];
 

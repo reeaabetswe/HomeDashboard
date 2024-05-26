@@ -1,0 +1,77 @@
+<style>
+  .page-background {
+    background-image: url('assets/Dasboard_Home.png');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  
+  </style>
+  
+  <ion-header [translucent]="true">
+    <ion-toolbar color="dark blue">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="3">
+            <ion-title>Hello!</ion-title>
+          </ion-col>
+          <ion-col size="6" class="ion-text-center">
+            <ion-title>Home Dashboard</ion-title>
+          </ion-col>
+          <ion-col size="3"></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+  </ion-header>
+  
+  
+  
+  <ion-content class="ion-padding">
+  
+    <!-- Background image -->
+  <div class="page-background"></div>
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h1 class="ion-text-center">Application</h1>
+        </ion-col>
+      </ion-row>
+      <ion-row class="app-options">
+        <ion-col size="12" size-md="4" class="ion-text-center">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Applicant</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-img src="assets/empty.jpg"></ion-img>
+              <p>Start a new application</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+  
+        <ion-col size="12" size-md="4">
+  
+  
+        </ion-col>
+        
+        <ion-col size="12" size-md="4" class="ion-text-center">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Administrator</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-img src="assets/empty.jpg"></ion-img>
+              <p>View the Administrator here</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
